@@ -15,9 +15,9 @@
 }
 
 .dark {
-  --text-color: white;
-  --bg-url: url(./assets/bg-dark.jpg) top center/cover;
   background: var(--bg-url) top center/cover;
+  --text-color: white;
+  --bg-url: url(./assets/bg-dark-test.png) top center/cover;
   --stroke-color: rgba(225, 255, 255, 0.5);
   --surface-color: rgba(237, 225, 225, 0.048);
   --surface-color-hover: rgba(255, 255, 255, 0.306);
@@ -37,7 +37,7 @@ body * {
 
 #container {
   width: 100%;
-  max-width: 588px;
+  max-width: 500px;
   margin: auto;
   padding: 0;
 }
@@ -83,7 +83,7 @@ body * {
 }
 
 #switch button:hover {
-  outline: 8px solid var(--highlight-color)
+  outline: 8px solid var(--highlight-color);
 }
 
 #switch span {
@@ -95,7 +95,7 @@ body * {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
-  }
+}
 
 /* lista de links */
 ul {
@@ -161,7 +161,7 @@ footer {
     --bg-url: url(./assets/bg-light\ marcela.jpg);
   }
   .dark {
-     --bg-url: url(./assets/bg-dark.jpg);
+     --bg-url: url(./assets/bg-dark-test.png);
   }
 }
 
