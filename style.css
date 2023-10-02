@@ -16,7 +16,8 @@
 
 .dark {
   --text-color: white;
-  --bg-url: url(./assets/bg-dark.jpg) top center/cover; background: var(--bg-url) top center/cover;
+  --bg-url: url(./assets/bg-dark.jpg) top center/cover;
+  background: var(--bg-url) top center/cover;
   --stroke-color: rgba(225, 255, 255, 0.5);
   --surface-color: rgba(237, 225, 225, 0.048);
   --surface-color-hover: rgba(255, 255, 255, 0.306);
@@ -26,6 +27,7 @@
 
 body {
   background: var(--bg-url);
+  height: 100vh;
 }
 
 body * {
@@ -148,4 +150,13 @@ footer {
   padding: 10px 0;
   text-align: center;
   font-size: 14px;
+}
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-light\ marcela.jpg);
+  }
+  .dark {
+     --bg-url: url(./assets/bg-dark.jpg);
+  }
 }
