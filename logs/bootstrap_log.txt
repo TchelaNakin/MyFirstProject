@@ -1,0 +1,15 @@
+
+
+[2023-10-10 20:17:24] Startup - updater built Sep 29 2023 10:42:34
+[2023-10-10 20:17:24] Startup - Steam Client launched with: "C:\Users\marce\OneDrive\Área de Trabalho\steam.exe" 
+[2023-10-10 20:17:31] Shutdown
+
+
+[2023-10-10 20:17:59] Startup - updater built Sep 29 2023 10:42:34
+[2023-10-10 20:17:59] Startup - Steam Client launched with: "C:\Users\marce\OneDrive\Área de Trabalho\steam.exe" 
+[2023-10-10 20:18:00] Shutdown
+
+
+[2023-10-10 20:18:02] Startup - updater built Sep 29 2023 10:42:34
+[2023-10-10 20:18:02] Startup - Steam Client launched with: "C:\Users\marce\OneDrive\Área de Trabalho\steam.exe" 
+[2023-10-10 20:18:03] Shutdown
